@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'ClashDisplay-Medium';
+    src: url('/resources/fonts/ClashDisplay-Medium.woff2') format('woff2'),
+         url('/resources/fonts/ClashDisplay-Medium.woff') format('woff');
+         font-weight: 500;
+         font-display: swap;
+         font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'ClashDisplay-Semibold';
+    src: url('/resources/fonts/ClashDisplay-Semibold.woff2') format('woff2'),
+         url('/resources/fonts/ClashDisplay-Semibold.woff') format('woff');
+         font-weight: 600;
+         font-display: swap;
+         font-style: normal;
+  }
+
+@font-face {
+    font-family: 'proxbold';
+    src: url('/resources/fonts/prox-bold-webfont.woff2') format('woff2'),
+         url('/resources/fonts/prox-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxregular';
+    src: url('/resources/fonts/prox-regular-webfont.woff2') format('woff2'),
+         url('/resources/fonts/prox-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    font-family: 'proxregular', Helvetica, Arial, sans-serif;
+  }
+  
+h1, h3 {
+    font-family: 'ClashDisplay-Medium', serif;
+  }
+
+.logo, h2 {
+    font-family: 'ClashDisplay-Semibold', serif;
+}
+  
+  
+h1 {
+    color: #7E7EE0;
+    font-size: 96px;
+  }
+  
+h2 {
+    color: #F5EFED;
+}
+  
+p,li {
+    font-size: 18px;
+    color: #F5EFED;
+  }
+  
+.line {
+    border-bottom: #F5EFED;
+    border-width: 0.5px;
+    border-bottom-style: solid;
+}
+  
+.photo {
+    width: 769.65px ;
+    height: auto;
+}
+
+.circular-text {
+    width: 141px;
+    height: auto; 
+}
+
+.header-right {
+    background-color: #232C33 ;
+}
