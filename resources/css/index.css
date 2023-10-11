@@ -436,6 +436,7 @@ span {
   font-family: 'ClashDisplay-Semibold';
   line-height:50px;
   font-size: 48px;
+  min-width: 250px;
 }
 
 .memoji {
@@ -450,6 +451,7 @@ span {
   margin-left:120px;
   color: #232C33;
   font-size: 16px;
+  max-width: 700px;
 }
 
 .about-me p span {
